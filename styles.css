@@ -47,8 +47,8 @@ nav {
 
 nav li {
   display: inline-table;
-  padding-left:48px;
-  padding-right:48px;
+  padding-left:2em;
+  padding-right:2em;
   text-decoration: none;
 }
 
@@ -82,7 +82,20 @@ aside {
   padding: 20px;
   width: 25%;
 }
- 
+
+@media (max-size: 992px) {
+  aside {
+    float: none;
+
+  }
+
+  aside  li {
+    display: inline-table;
+    padding-left:1em;
+    padding-right:1em;
+    text-decoration: none;
+  }
+}
 link {
   color: #ad1457;
   text-decoration: none;
