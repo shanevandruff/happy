@@ -11,3 +11,8 @@ aside  li {
   padding-right:1em;
 
 }
+
+.logo {
+  width: auto;
+  text-align: center;
+}
