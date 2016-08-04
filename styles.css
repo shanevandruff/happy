@@ -1,3 +1,6 @@
+.page {
+  width: 100%;
+}
 body {
   background-color: white;
   color:black;
@@ -53,7 +56,7 @@ nav li {
 .container {
   box-sizing: border-box;
   width: 100%;
-  max-width: 800px;
+  
 }
 
 article {
