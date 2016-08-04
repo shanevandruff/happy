@@ -82,14 +82,7 @@ aside {
   padding: 20px;
   width: 25%;
 }
-aside:after {
-  visibility: hidden;
-  display: block;
-  content:" ";
-  clear: both;
-  height: 1px;
-
-}
+ 
 link {
   color: #ad1457;
   text-decoration: none;
