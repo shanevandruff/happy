@@ -1,0 +1,13 @@
+
+aside {
+  float: none;
+  width: 100%;
+}
+
+aside  li {
+  display: inline-table;
+  margin: 0 0.5em;
+  padding-left:1em;
+  padding-right:1em;
+
+}
