@@ -56,7 +56,14 @@ nav li {
 .container {
   box-sizing: border-box;
   width: 100%;
-  
+
+}
+.container:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+
 }
 
 article {
@@ -74,6 +81,13 @@ aside {
   margin:0;
   padding: 20px;
   width: 25%;
+}
+aside:after {
+  visibility: hidden;
+  display: block;
+  content:" ";
+  clear: both;
+  height: 1px;
 
 }
 link {
@@ -81,9 +95,9 @@ link {
   text-decoration: none;
 }
 section {
-  padding-bottom: 531px;
   padding-left:10px;
   margin: 0;
+
 
 }
 p {
